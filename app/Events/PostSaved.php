@@ -15,6 +15,8 @@ class PostSaved
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
+    public $post;
+    
     /**
      * Create a new event instance.
      *
